@@ -47,6 +47,12 @@ server.patch("/tasks/:id", function(request, response){
   response.json(task)
 })
 
+server.post("/tasks", function(request, response){
+  var task = request.body
+  task.id = tasks.length
+  tasks.push(task)
+  response.json(task)
+})
 
 server.options("/", cors())
 
