@@ -1,10 +1,13 @@
 var express = require('express')
 var cors = require('cors')
 var server = express()
-server.use(cors())
+var bodyParser = require('body-parser')
 
+server.use(cors())
+server.use(bodyParser.json())
 var tasks = [
   {
+    id: 1, 
     title: "Do Dishes",
     done: true,
     person: "angela",
@@ -12,6 +15,7 @@ var tasks = [
     type: "Chore"
   },
   {
+    id: 2,
     title: "Clean Bathroom",
     done: false,
     person: "aaron",
@@ -19,6 +23,7 @@ var tasks = [
     type: "Chore"
   },
   {
+    id: 3,
     title: "Play Video Games",
     done: true,
     person: "lawrence",
@@ -34,6 +39,12 @@ server.get("/tasks", function(request, response){
 server.get("/tasks/:type", function(request, response){
   var tasks_of_type = tasks.filter(function(task){return task.type === request.params.type})
   response.json(tasks_of_type)
+})
+
+server.patch("/tasks/:id", function(request, response){
+  var task = tasks.find(function(task){return task.id === Number(request.params.id)})
+  Object.assign(task, response.body)
+  response.json(task)
 })
 
 
