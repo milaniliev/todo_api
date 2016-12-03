@@ -1,6 +1,7 @@
 var express = require('express')
-
+var cors = require('cors')
 var server = express()
+server.use(cors())
 
 var tasks = [
   {
@@ -23,5 +24,7 @@ var tasks = [
 server.get("/tasks", function(request, response){
   response.json(tasks)
 })
+
+server.options("/", cors())
 
 server.listen(3000)
