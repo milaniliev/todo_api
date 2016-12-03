@@ -49,8 +49,8 @@ server.patch("/tasks/:id", function(request, response){
 
 server.post("/tasks", function(request, response){
   var task = request.body
-  task.id = tasks.length
   tasks.push(task)
+  task.id = tasks.length - 1
   response.json(task)
 })
 
