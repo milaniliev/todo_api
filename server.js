@@ -49,7 +49,7 @@ server.patch("/tasks/:id", function(request, response){
 
 server.post("/tasks", function(request, response){
   var task = request.body
-  task.id = Math.max.apply(null, tasks.map(function(task){ return task.id})) + 1
+  task.id = (Math.max.apply(null, tasks.map(function(task){ return task.id})) || 0) + 1
   tasks.push(task)
   response.json(task)
 })
