@@ -6,7 +6,6 @@ var morgan = require('morgan')
 
 server.use(morgan('dev'))
 
-
 server.use(cors())
 server.use(bodyParser.json())
 var tasks = [
@@ -53,12 +52,12 @@ server.patch("/tasks/:id", function(request, response){
   } else {
     response.status(404).end()
   }
-
 })
 
 server.post("/tasks", function(request, response){
   var task = request.body
   task.id = (Math.max.apply(null, tasks.map(function(task){ return task.id})) || 0) + 1
+  console.log("creating task", task)
   tasks.push(task)
   response.json(task)
 })
