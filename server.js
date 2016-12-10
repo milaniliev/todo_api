@@ -50,8 +50,13 @@ server.patch("/tasks/:id", function(request, response){
 server.post("/tasks", function(request, response){
   var task = request.body
   tasks.push(task)
-  task.id = tasks.length - 1
+  task.id = Math.max(tasks.map(function(task){ return task.id})) + 1
   response.json(task)
+})
+
+server.delete("/tasks/:id", function(request, response){
+  tasks = tasks.filter(function(task){return task.id === Number(request.params.id)})
+  response.status(200).end()
 })
 
 server.options("/", cors())
