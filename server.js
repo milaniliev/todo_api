@@ -43,8 +43,13 @@ server.get("/tasks/:type", function(request, response){
 
 server.patch("/tasks/:id", function(request, response){
   var task = tasks.find(function(task){return task.id === Number(request.params.id)})
-  Object.assign(task, request.body)
-  response.json(task)
+  if(task){
+    Object.assign(task, request.body)
+    response.json(task)
+  } else {
+    response.status(404).end()
+  }
+
 })
 
 server.post("/tasks", function(request, response){
@@ -55,8 +60,13 @@ server.post("/tasks", function(request, response){
 })
 
 server.delete("/tasks/:id", function(request, response){
-  tasks = tasks.filter(function(task){return task.id === Number(request.params.id)})
-  response.status(200).end()
+  task = tasks.find(function(task){return task.id === Number(request.params.id)})
+  if (task){
+    tasks = tasks.filter(function(task){return task.id === Number(request.params.id)})
+    response.json(task)
+  } else {
+    response.status(404).end()
+  }
 })
 
 server.options("/", cors())
