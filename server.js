@@ -2,6 +2,10 @@ var express = require('express')
 var cors = require('cors')
 var server = express()
 var bodyParser = require('body-parser')
+var morgan = require('morgan')
+
+server.use(morgan('dev'))
+
 
 server.use(cors())
 server.use(bodyParser.json())
