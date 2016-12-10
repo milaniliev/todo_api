@@ -62,7 +62,7 @@ server.post("/tasks", function(request, response){
 server.delete("/tasks/:id", function(request, response){
   task = tasks.find(function(task){return task.id === Number(request.params.id)})
   if (task){
-    tasks = tasks.filter(function(task){return task.id === Number(request.params.id)})
+    tasks = tasks.filter(function(task){return task.id !== Number(request.params.id)})
     response.json(task)
   } else {
     response.status(404).end()
