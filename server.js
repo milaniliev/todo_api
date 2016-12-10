@@ -56,7 +56,11 @@ server.patch("/tasks/:id", function(request, response){
 
 server.post("/tasks", function(request, response){
   var task = request.body
-  task.id = (Math.max.apply(null, tasks.map(function(task){ return task.id})) || 0) + 1
+  if(tasks.length === 0){
+    task.id = 1
+  } else {
+    task.id = (Math.max.apply(null, tasks.map(function(task){ return task.id}))) + 1
+  }
   console.log("creating task", task)
   tasks.push(task)
   response.json(task)
