@@ -1,0 +1,6 @@
+version=1.0.0
+
+rule docker_build
+  command = docker build -t monroe-todo_api:$version .
+
+build image: docker_build .

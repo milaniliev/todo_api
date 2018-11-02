@@ -1,0 +1,579 @@
+SyntaxError: Unexpected token d in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (/www/todo_api/node_modules/body-parser/lib/types/json.js:88:17)
+    at /www/todo_api/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/www/todo_api/node_modules/raw-body/index.js:262:16)
+    at done (/www/todo_api/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/www/todo_api/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+TypeError: Cannot convert undefined or null to object
+    at Function.assign (<anonymous>)
+    at /www/todo_api/server.js:46:10
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/www/todo_api/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/www/todo_api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/www/todo_api/node_modules/express/lib/router/layer.js:95:5)
+    at /www/todo_api/node_modules/express/lib/router/index.js:277:22
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:349:14)
+    at param (/www/todo_api/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/www/todo_api/node_modules/express/lib/router/index.js:410:3)
+[0mGET /tasks/Chore [32m200 [0m5.701 ms - 180[0m
+[0mGET /tasks/Homework [32m200 [0m0.850 ms - 100[0m
+[0mGET /tasks [32m200 [0m5.127 ms - 279[0m
+[0mGET /tasks [32m200 [0m5.059 ms - 279[0m
+[0mGET /favicon.ico [33m404 [0m2.087 ms - 24[0m
+[0mGET /tasks/Chore [32m200 [0m1.907 ms - 180[0m
+[0mGET /tasks/Homework [32m200 [0m0.205 ms - 100[0m
